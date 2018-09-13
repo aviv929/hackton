@@ -1,0 +1,45 @@
+.root{
+    /* -fx-background-image: url("../resources/Images/cap_tiny.png"); */
+    -fx-background-repeat: repeat;
+    -fx-font-family: "Roboto Black";
+    -fx-background-color:
+            linear-gradient(#d53a44, #1bdd01),
+            linear-gradient(#0015fc 70%, #00d90f 20%, #d60035 100%),
+            linear-gradient(#a2d3dd 0%, #f6f6f6 50%);
+
+}
+@font-face {
+    src: url("../Resources/Fonts/Roboto-Black.ttf");
+}
+
+#question_txt{
+}
+#anchorPane{
+    -fx-background-color:
+            linear-gradient(#d53a44, #1bdd01),
+            linear-gradient(#0015fc 70%, #00d90f 20%, #d60035 100%),
+            linear-gradient(#a2d3dd 0%, #f6f6f6 50%);
+}
+
+.button{
+    -fx-font-family: "Roboto Black";
+    -fx-text-alignment: center;
+    -fx-font-size: 16px;
+    -fx-font-style: normal;
+}
+#reject_btn{
+    -fx-background-color: #9a2d37;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: center;
+    -fx-font-size: 16px;
+    -fx-font-style: normal;
+    -fx-font-family: "Roboto Black";
+}
+
+Button:hover {
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
